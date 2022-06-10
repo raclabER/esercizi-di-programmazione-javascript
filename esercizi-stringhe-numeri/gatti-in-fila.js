@@ -17,3 +17,11 @@
 
   http://www.imparareaprogrammare.it
 */
+var cats = 44;
+
+var inline = 6;
+
+var numlines = Math.ceil('cats/inline');
+
+var gattimancanti = numlines*inline-cats;
+console.log('$(cats) gatti in fila per $(inline) si unirono per totale di file (numlines) e ne mancarono (gattimancanti)');
